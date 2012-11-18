@@ -33,21 +33,20 @@ function tibs_sc8_email( $attr, $content ) {
 // Add a button to the post editor for the email shortcode
 add_action( 'init', 'tibs_add_button' );
 function tibs_add_button() {
-	if ( current_user_can('edit_posts') &&  current_user_can('edit_pages') )
-	{
-		add_filter('mce_external_plugins', 'tibs_add_plugin');
-		add_filter('mce_buttons', 'tibs_register_button');
+	if ( current_user_can( 'edit_posts') &&  current_user_can('edit_pages' ) ) {
+		add_filter( 'mce_external_plugins', 'tibs_add_plugin' );
+		add_filter( 'mce_buttons', 'tibs_register_button' );
 	}
 }
 
-function tibs_add_plugin($plugin_array) {
+function tibs_add_plugin( $plugin_array ) {
 	$plugin_array['emaillink'] = plugin_dir_url(__FILE__).'lib/customcodes.js';
 	
 	return $plugin_array;
 }
 
 function tibs_register_button($buttons) {
-	array_push($buttons, "emaillink");
+	array_push( $buttons, "emaillink" );
 	
 	return $buttons;
 }
