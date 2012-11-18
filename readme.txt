@@ -9,7 +9,7 @@ Adds a shortcode button to the TinyMCE editor for easy anti spambot email links.
 
 == Description ==
 
-This simple plugin adds a button to the TinyMCE editor that puts a selected email adress into a shortcode [email], which uses WordPress' native antispambot()function to encode the emailadress so harvesters can't get it.
+This simple plugin adds a button to the TinyMCE editor that puts a selected email adress into a shortcode [email], which uses WordPress' native antispambot() function to encode the emailadress so harvesters can't get it.
 
 == Installation ==
 
