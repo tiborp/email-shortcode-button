@@ -5,11 +5,11 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Adds a shortcode button to the TinyMCE editor for easy anti spambot email links.
+Adds a shortcode button to the WordPress TinyMCE editor for easy anti spambot email links.
 
 == Description ==
 
-This simple plugin adds a button to the TinyMCE editor that puts a selected email adress into a shortcode [email], which uses WordPress' native antispambot() function to encode the emailadress so harvesters can't get it.
+This simple plugin adds a button to the TinyMCE editor that puts a selected email adress into a shortcode [email] and turns it into a mailto-link, which uses WordPress' native antispambot() function to encode the emailadress so harvesters can't get it.
 
 == Installation ==
 
