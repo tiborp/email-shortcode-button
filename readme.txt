@@ -1,7 +1,9 @@
 === Anti SpamBot Email Button ===
+Contributors: Tibor
 Tags: email, spam, shortcode
+Requires at least: 3.0.1
 Tested up to: 3.4.2
-Stable tag: 1.0
+Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,8 +25,19 @@ Adds a button to the TinyMCE editor that puts a selected email adress into a sho
 
 Put the email adress in the [email] shortcode like this: [email]email@myhost.com[/email]
 
+== Screenshots ==
+
+No screenshot yet..
+
+== Other notes ==
+
+This is my very first public plugin, so please be gentle with your comments ;-)
+
+Find it on [GitHub](https://github.com/tiborp/email-shortcode-button "Plugin code on GitHub")
+
+
 == Changelog ==
 
-= 1.0 =
-* First release
+= 0.1 =
+* First release in the wild
 
